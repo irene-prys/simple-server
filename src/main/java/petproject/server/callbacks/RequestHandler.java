@@ -5,7 +5,7 @@ import java.nio.channels.AsynchronousServerSocketChannel;
 import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.CompletionHandler;
 
-public class RequestHandler  implements CompletionHandler<AsynchronousSocketChannel, Object> {// todo: think over the name
+public class RequestHandler  implements CompletionHandler<AsynchronousSocketChannel, Object> {
     private AsynchronousServerSocketChannel server;
 
     public RequestHandler(AsynchronousServerSocketChannel server) {

@@ -11,7 +11,7 @@ import java.nio.channels.CompletionHandler;
 import java.text.MessageFormat;
 import java.util.Map;
 
-public class ResponseHandler implements CompletionHandler<Integer, ByteBuffer> {// todo: think over the name
+public class ResponseHandler implements CompletionHandler<Integer, ByteBuffer> {
     private AsynchronousSocketChannel clientSocketChannel;
 
     public ResponseHandler(AsynchronousSocketChannel clientSocketChannel) {
