@@ -16,6 +16,10 @@ public class ServerStarter {
 
         SimpleServer server = new SimpleServer();
         server.startServer(port);
+
+        System.out.println("----->>> Server is started <<<-----");
+        Thread.currentThread().join();
+
     }
 
     private static int getPort(String[] args) {
