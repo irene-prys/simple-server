@@ -1,9 +1,7 @@
-package petproject.server;
+package petproject.server.utils;
 
 
 import org.testng.annotations.Test;
-import petproject.server.utils.PortFormatException;
-import petproject.server.utils.StarterArgumentsHandler;
 
 import java.io.IOException;
 
