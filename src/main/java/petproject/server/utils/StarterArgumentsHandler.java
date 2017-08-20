@@ -1,8 +1,8 @@
-package petproject.server;
+package petproject.server.utils;
 
-class StarterArgumentsHandler {
-    static final String PORT_PROPERTY_KEY = "-p";
-    static final int PROPERTY_NOT_DEFINED = -1;
+public class StarterArgumentsHandler {
+    private static final String PORT_PROPERTY_KEY = "-p";
+    public static final int PROPERTY_NOT_DEFINED = -1;
 
     public static int getPort(String[] args) throws PortFormatException {
         int portKeyIndex = findPortPropertyKeyArgumentIndex(args);

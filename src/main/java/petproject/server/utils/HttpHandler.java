@@ -1,4 +1,4 @@
-package petproject.server;
+package petproject.server.utils;
 
 import java.util.HashMap;
 import java.util.Map;

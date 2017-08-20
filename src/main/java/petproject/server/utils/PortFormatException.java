@@ -1,6 +1,6 @@
-package petproject.server;
+package petproject.server.utils;
 
-class PortFormatException extends Exception {
+public class PortFormatException extends Exception {
     public PortFormatException(String port) {
         super("Port \"" + port + "\" is in incorrect format");
     }
